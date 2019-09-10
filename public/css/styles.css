@@ -1,0 +1,61 @@
+body {
+    background-color: #1e1f26;
+    margin: 0;
+    text-align: center;
+    font-family: 'Palatino Linotype', serif;
+}
+
+h1 {
+    color: #4d648d;
+    font-family: 'Palatino Linotype', serif;
+    font-size: 5.625rem;
+    margin: 0 auto 20px auto;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+
+.btn {
+  font-size: 18px;
+  outline: none;
+  border: none;
+  color: #4d648d;
+  background-color: #d0e1f9;
+  border-radius: 3px;
+  transition: background-color 0.2s ease;
+}
+
+#game-menu {
+    float: left;
+    width: 220px;
+}
+
+#play-menu {
+  display: flex;
+  flex-direction: row;
+}
+
+#game {
+    margin-left: 220px;
+}
+
+#game-canvas {
+    background-color: #d0e1f9;
+    border: 1px solid;
+    border-color: #4d648d;
+}
+
+#play-button:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+#play-button:focus {
+  outline: none;
+}

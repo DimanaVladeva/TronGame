@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Tron</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <h1 id="title">Tron Game</h1>
+
+    <div class="container">
+
+        <div id="game-menu">
+            <div id="start-game-menu">
+                <input type="text" id="playername-input" placeholder="Player Name" />
+                <button id="play-button" class="btn">PLAY</button>
+            </div>
+
+            <div id="game-options" class="hidden">
+                <p id="player-info"></p>
+                <p id="game-info">Use the arrow keys to move.</p>
+                <button id="retry-button" class="btn hidden">RETRY</button>
+            </div>
+        </div>
+
+        <div id="game" class="hidden">
+            <canvas id="game-canvas"></canvas>
+        </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/scripts/index.js" charset="utf-8"></script>
+</body>
+
+</html>
